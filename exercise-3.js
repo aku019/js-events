@@ -9,5 +9,5 @@ encode.addEventListener('click',event =>
 
 decode.addEventListener('click',event => 
 {
-    output.value= codeURIComponent(url.value);
+    output.value= decodeURIComponent(url.value);
 });
